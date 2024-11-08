@@ -85,3 +85,21 @@ Sync completed successfully!
 Log written to sync.log
 
 ```
+
+## Authors
+
+This project was created and maintained by:
+
+- **James Gibbons**  
+  Founder & Developer at [121 Digital Services Limited](https://www.121digital.co.uk)  
+  Email: [jgibbons@121digital.co.uk](mailto:jgibbons@121digital.co.uk)  
+  Twitter: [@jamesgibbons](https://twitter.com/jamesgibbons)
+
+If you have any questions or need further assistance, feel free to reach out to James via email or through the contact information on the [121 Digital website](https://www.121digital.co.uk).
+
+### Contributions
+
+We welcome contributions from the open-source community. If you'd like to contribute to this project, please follow the guidelines provided in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+For any bug reports, feature requests, or other inquiries, please open an issue or contact us directly.
+
