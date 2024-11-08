@@ -1,3 +1,28 @@
+"""
+121 Digital IMAP Sync by 121 Digital Services Limited
+====================================================
+
+This script is designed to sync emails and folders between two IMAP mail servers.
+It supports interactive progress bars, folder creation, and verbose logging.
+
+Project: 121 Digital IMAP Sync
+Author: James Gibbons (jgibbons@121digital.co.uk)
+Support: engineering@121digital.co.uk
+
+This program is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation, either
+version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.
+If not, see <https://www.gnu.org/licenses/>.
+
+(c) 2024 121 Digital Services Limited. All rights reserved.
+"""
+
 import imapclient
 import email
 import json
