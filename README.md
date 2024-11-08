@@ -19,7 +19,7 @@ To use **121 Digital IMAP Sync**, ensure that you have Python 3.7+ installed alo
 pip install imapclient rich
 ```
 
-## Configuration File
+Configuration File
 
 You will need to create a configuration file that contains the IMAP details that are
 needed for the sync job. Below is an example config for config.json
@@ -37,5 +37,51 @@ needed for the sync job. Below is an example config for config.json
     "password": "destination_password"
   }
 }
+
+```
+
+Example Usage
+
+Execute the script using python:
+```bash
+python imap_sync.py
+```
+
+Example output
+```terminal
+Starting 121 Digital IMAP Sync...
+
+Loading source mailbox details...
+  Source: user@example.com (imap.gmail.com)
+
+Loading destination mailbox details...
+  Destination: user@example.com (imap.example.com)
+
+Fetching folder list from source mailbox...
+  - Inbox: 1000 emails (2.5MB)
+  - Sent: 500 emails (1.2MB)
+  - Drafts: 10 emails (50KB)
+
+Fetching folder list from destination mailbox...
+  - Inbox: 0 emails (0MB)
+  - Sent: 0 emails (0MB)
+  - Drafts: 0 emails (0MB)
+
+Confirming sync process:
+  Source mailbox: 1500 emails across 3 folders
+  Destination mailbox: 0 emails across 3 folders
+  Total size: 3.8MB (source) vs. 0MB (destination)
+
+Proceed with sync? (y/n): y
+
+Starting sync...
+
+[====================] 100% - Syncing Inbox (1000 emails)
+[====================] 100% - Syncing Sent (500 emails)
+[====================] 100% - Syncing Drafts (10 emails)
+
+Sync completed successfully!
+
+Log written to sync.log
 
 ```
