@@ -19,7 +19,7 @@ To use **121 Digital IMAP Sync**, ensure that you have Python 3.7+ installed alo
 pip install imapclient rich
 ```
 
-Configuration File
+## Configuration File
 
 You will need to create a configuration file that contains the IMAP details that are
 needed for the sync job. Below is an example config for config.json
@@ -40,7 +40,7 @@ needed for the sync job. Below is an example config for config.json
 
 ```
 
-Example Usage
+## Example Usage
 
 Execute the script using python:
 ```bash
