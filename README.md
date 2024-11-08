@@ -92,8 +92,7 @@ This project was created and maintained by:
 
 - **James Gibbons**  
   Founder & Developer at [121 Digital Services Limited](https://www.121digital.co.uk)  
-  Email: [jgibbons@121digital.co.uk](mailto:jgibbons@121digital.co.uk)  
-  Twitter: [@jamesgibbons](https://twitter.com/jamesgibbons)
+  Email: [jgibbons@121digital.co.uk](mailto:jgibbons@121digital.co.uk)
 
 If you have any questions or need further assistance, feel free to reach out to James via email or through the contact information on the [121 Digital website](https://www.121digital.co.uk).
 
