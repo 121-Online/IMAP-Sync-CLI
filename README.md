@@ -17,3 +17,25 @@ To use **121 Digital IMAP Sync**, ensure that you have Python 3.7+ installed alo
 
 ```bash
 pip install imapclient rich
+```
+
+## Configuration File
+
+You will need to create a configuration file that contains the IMAP details that are
+needed for the sync job. Below is an example config for config.json
+
+```json
+{
+  "source": {
+    "host": "source_imap_host",
+    "user": "source_user",
+    "password": "source_password"
+  },
+  "destination": {
+    "host": "destination_imap_host",
+    "user": "destination_user",
+    "password": "destination_password"
+  }
+}
+
+```
